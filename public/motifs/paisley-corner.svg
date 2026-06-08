@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Paisley Corner Accent -->
+  <defs>
+    <style>
+      .gold { fill: #D4A853; }
+      .burgundy { fill: #6B2D3E; }
+      .cream { fill: #FFF8F0; }
+    </style>
+  </defs>
+  <!-- Main paisley body -->
+  <path class="gold" d="M90,40 C105,15 115,10 118,25 C120,35 115,50 105,55 C90,60 80,55 90,40Z" opacity="0.7"/>
+  <path class="burgundy" d="M95,42 C105,25 112,20 114,30 C115,36 112,46 106,50 C96,55 90,48 95,42Z" opacity="0.6"/>
+  <!-- Second smaller paisley -->
+  <path class="gold" d="M65,65 C75,50 85,48 88,55 C90,60 85,68 80,70 C70,72 65,68 65,65Z" opacity="0.5"/>
+  <!-- Decorative vine trailing down/left -->
+  <path d="M40,90 Q60,80 65,65" fill="none" stroke="#D4A853" stroke-width="1.5" opacity="0.4"/>
+  <path d="M70,70 Q80,60 90,40" fill="none" stroke="#D4A853" stroke-width="1" opacity="0.3"/>
+  <!-- Small leaf accents -->
+  <ellipse class="gold" cx="55" cy="82" rx="6" ry="3" transform="rotate(-30 55 82)" opacity="0.5"/>
+  <ellipse class="burgundy" cx="78" cy="58" rx="4" ry="2" transform="rotate(-40 78 58)" opacity="0.4"/>
+  <!-- Decorative dots -->
+  <circle class="gold" cx="40" cy="90" r="2" opacity="0.6"/>
+  <circle class="burgundy" cx="35" cy="85" r="1.5" opacity="0.5"/>
+  <circle class="gold" cx="48" cy="88" r="1.5" opacity="0.5"/>
+</svg>

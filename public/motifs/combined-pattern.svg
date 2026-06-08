@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <!-- Combined Blessings Motif Pattern - for gift wrap, premium backgrounds, hero sections -->
+  <defs>
+    <style>
+      .gold { fill: #D4A853; }
+      .burgundy { fill: #6B2D3E; }
+      .taupe { fill: #8C7A6B; }
+      .sage { fill: #8BA888; }
+      .cream { fill: #FFF8F0; }
+      .g1 { fill: none; stroke: #D4A853; stroke-width: 1.2; }
+      .g2 { fill: none; stroke: #D4A853; stroke-width: 0.8; }
+      .g3 { fill: none; stroke: #6B2D3E; stroke-width: 1; }
+      .g4 { fill: none; stroke: #8C7A6B; stroke-width: 0.8; }
+    </style>
+  </defs>
+
+  <!-- Background - cream -->
+  <rect width="400" height="400" class="cream" fill="#FFF8F0"/>
+
+  <!-- Diamond lattice background -->
+  <g opacity="0.08">
+    <path d="M200,10 L390,200 L200,390 L10,200Z" class="taupe" fill="none" stroke="#8C7A6B" stroke-width="0.5"/>
+    <path d="M200,30 L370,200 L200,370 L30,200Z" class="taupe" fill="none" stroke="#8C7A6B" stroke-width="0.5"/>
+    <path d="M200,50 L350,200 L200,350 L50,200Z" class="taupe" fill="none" stroke="#8C7A6B" stroke-width="0.5"/>
+    <path d="M200,70 L330,200 L200,330 L70,200Z" class="taupe" fill="none" stroke="#8C7A6B" stroke-width="0.5"/>
+    <path d="M200,90 L310,200 L200,310 L90,200Z" class="taupe" fill="none" stroke="#8C7A6B" stroke-width="0.5"/>
+    <path d="M200,110 L290,200 L200,290 L110,200Z" class="taupe" fill="none" stroke="#8C7A6B" stroke-width="0.5"/>
+  </g>
+
+  <!-- Corner paisley - top left -->
+  <g transform="translate(20,20) scale(0.7)">
+    <path class="gold" d="M90,40 C105,15 115,10 118,25 C120,35 115,50 105,55 C90,60 80,55 90,40Z" opacity="0.6"/>
+    <path class="burgundy" d="M95,42 C105,25 112,20 114,30 C115,36 112,46 106,50 C96,55 90,48 95,42Z" opacity="0.5"/>
+    <path d="M40,90 Q60,80 65,65" fill="none" stroke="#D4A853" stroke-width="1.5" opacity="0.4"/>
+  </g>
+
+  <!-- Corner paisley - bottom right -->
+  <g transform="translate(250,250) scale(0.7) rotate(180)">
+    <path class="gold" d="M90,40 C105,15 115,10 118,25 C120,35 115,50 105,55 C90,60 80,55 90,40Z" opacity="0.6"/>
+    <path class="burgundy" d="M95,42 C105,25 112,20 114,30 C115,36 112,46 106,50 C96,55 90,48 95,42Z" opacity="0.5"/>
+    <path d="M40,90 Q60,80 65,65" fill="none" stroke="#D4A853" stroke-width="1.5" opacity="0.4"/>
+  </g>
+
+  <!-- Center mandala - simplified -->
+  <g transform="translate(200,200) scale(0.35)" opacity="0.5">
+    <circle cx="0" cy="0" r="190" class="g1" opacity="0.3"/>
+    <circle cx="0" cy="0" r="160" class="g4" opacity="0.3"/>
+    <circle cx="0" cy="0" r="130" class="g2" opacity="0.3"/>
+    <g class="g3" opacity="0.3">
+      <path d="M0,-180 Q30,-140 0,0 Q-30,-140 0,-180Z" transform="rotate(0)"/>
+      <path d="M0,-180 Q30,-140 0,0 Q-30,-140 0,-180Z" transform="rotate(45)"/>
+      <path d="M0,-180 Q30,-140 0,0 Q-30,-140 0,-180Z" transform="rotate(90)"/>
+      <path d="M0,-180 Q30,-140 0,0 Q-30,-140 0,-180Z" transform="rotate(135)"/>
+      <path d="M0,-180 Q30,-140 0,0 Q-30,-140 0,-180Z" transform="rotate(180)"/>
+      <path d="M0,-180 Q30,-140 0,0 Q-30,-140 0,-180Z" transform="rotate(225)"/>
+      <path d="M0,-180 Q30,-140 0,0 Q-30,-140 0,-180Z" transform="rotate(270)"/>
+      <path d="M0,-180 Q30,-140 0,0 Q-30,-140 0,-180Z" transform="rotate(315)"/>
+    </g>
+    <circle cx="0" cy="0" r="60" class="g1" opacity="0.3"/>
+    <circle cx="0" cy="0" r="30" class="g4" opacity="0.3"/>
+    <circle cx="0" cy="0" r="10" class="gold" opacity="0.3"/>
+  </g>
+
+  <!-- Floral divider - top horizontal -->
+  <g transform="translate(0,5)" opacity="0.4">
+    <path d="M0,5 Q25,-5 50,5 Q75,15 100,5" fill="none" stroke="#8BA888" stroke-width="0.8"/>
+    <path d="M100,5 Q125,-5 150,5 Q175,15 200,5" fill="none" stroke="#8BA888" stroke-width="0.8"/>
+    <path d="M200,5 Q225,-5 250,5 Q275,15 300,5" fill="none" stroke="#8BA888" stroke-width="0.8"/>
+    <path d="M300,5 Q325,-5 350,5 Q375,15 400,5" fill="none" stroke="#8BA888" stroke-width="0.8"/>
+    <ellipse cx="50" cy="0" rx="4" ry="2" fill="#8BA888" opacity="0.4"/>
+    <ellipse cx="150" cy="0" rx="4" ry="2" fill="#8BA888" opacity="0.4"/>
+    <ellipse cx="250" cy="0" rx="4" ry="2" fill="#8BA888" opacity="0.4"/>
+    <ellipse cx="350" cy="0" rx="4" ry="2" fill="#8BA888" opacity="0.4"/>
+  </g>
+
+  <!-- Floral divider - bottom horizontal -->
+  <g transform="translate(0,390)" opacity="0.4">
+    <path d="M0,5 Q25,-5 50,5 Q75,15 100,5" fill="none" stroke="#8BA888" stroke-width="0.8"/>
+    <path d="M100,5 Q125,-5 150,5 Q175,15 200,5" fill="none" stroke="#8BA888" stroke-width="0.8"/>
+    <path d="M200,5 Q225,-5 250,5 Q275,15 300,5" fill="none" stroke="#8BA888" stroke-width="0.8"/>
+    <path d="M300,5 Q325,-5 350,5 Q375,15 400,5" fill="none" stroke="#8BA888" stroke-width="0.8"/>
+  </g>
+
+  <!-- Gold dot accents scattered -->
+  <circle cx="50" cy="200" r="2" class="gold" opacity="0.3"/>
+  <circle cx="100" cy="100" r="1.5" class="gold" opacity="0.25"/>
+  <circle cx="100" cy="300" r="1.5" class="gold" opacity="0.25"/>
+  <circle cx="300" cy="100" r="1.5" class="gold" opacity="0.25"/>
+  <circle cx="300" cy="300" r="1.5" class="gold" opacity="0.25"/>
+  <circle cx="350" cy="200" r="2" class="gold" opacity="0.3"/>
+  <circle cx="200" cy="50" r="1.5" class="burgundy" opacity="0.2"/>
+  <circle cx="200" cy="350" r="1.5" class="burgundy" opacity="0.2"/>
+</svg>

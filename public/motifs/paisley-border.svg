@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" width="300" height="60">
+  <!-- Paisley Border Pattern - Repeating horizontal -->
+  <defs>
+    <style>
+      .gold { fill: #D4A853; }
+      .burgundy { fill: #6B2D3E; }
+      .taupe { fill: #8C7A6B; stroke: #8C7A6B; }
+    </style>
+    <!-- Single paisley motif -->
+    <g id="paisley">
+      <path class="gold" d="M40,30 C40,10 60,5 70,15 C80,25 75,40 65,45 C55,50 40,50 40,30Z" opacity="0.5"/>
+      <path class="burgundy" d="M45,30 C45,18 58,12 64,20 C70,28 67,36 62,40 C55,44 45,42 45,30Z" opacity="0.6"/>
+      <circle class="gold" cx="55" cy="28" r="3" opacity="0.7"/>
+    </g>
+  </defs>
+  <!-- Repeating paisley across the width -->
+  <use href="#paisley" x="0" y="5"/>
+  <use href="#paisley" x="80" y="5"/>
+  <use href="#paisley" x="160" y="5"/>
+  <use href="#paisley" x="240" y="5"/>
+  <!-- Connecting vine -->
+  <path class="taupe" d="M0,38 Q40,48 80,38 Q120,48 160,38 Q200,48 240,38 Q280,48 300,38" fill="none" stroke-width="1" opacity="0.4"/>
+  <path class="taupe" d="M0,25 Q40,15 80,25 Q120,15 160,25 Q200,15 240,25 Q280,15 300,25" fill="none" stroke-width="0.8" opacity="0.3"/>
+</svg>

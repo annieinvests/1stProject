@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <!-- Quarter Mandala Corner Accent -->
+  <defs>
+    <style>
+      .g1 { fill: none; stroke: #D4A853; stroke-width: 1.2; }
+      .g2 { fill: none; stroke: #D4A853; stroke-width: 0.8; }
+      .g3 { fill: none; stroke: #6B2D3E; stroke-width: 1; }
+      .g4 { fill: none; stroke: #8C7A6B; stroke-width: 0.7; }
+      .gold-fill { fill: #D4A853; }
+      .burgundy-fill { fill: #6B2D3E; }
+    </style>
+  </defs>
+  <!-- Quarter circles -->
+  <path d="M120,5 A115,115 0 0,0 5,120" class="g1" opacity="0.5"/>
+  <path d="M120,15 A105,105 0 0,0 15,120" class="g2" opacity="0.4"/>
+  <path d="M120,28 A92,92 0 0,0 28,120" class="g3" opacity="0.4"/>
+  <!-- Quarter petal -->
+  <path d="M120,50 Q85,55 50,120 Q85,85 120,50Z" class="g4" opacity="0.5"/>
+  <path d="M120,65 Q95,68 65,120 Q95,95 120,65Z" class="g2" opacity="0.4"/>
+  <!-- Decorative small circles -->
+  <circle cx="120" cy="42" r="3" class="gold-fill" opacity="0.4"/>
+  <circle cx="108" cy="108" r="2.5" class="burgundy-fill" opacity="0.3"/>
+  <circle cx="42" cy="120" r="3" class="gold-fill" opacity="0.4"/>
+  <!-- Center dot cluster -->
+  <circle cx="88" cy="88" r="4" class="gold-fill" opacity="0.35"/>
+  <circle cx="88" cy="88" r="2" class="burgundy-fill" opacity="0.3"/>
+</svg>
